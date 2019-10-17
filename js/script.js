@@ -28,8 +28,6 @@ ymaps.ready(function () {
             center: [53.059248, 158.634287],
             zoom: 16,
             behaviors: ['multiTouch']
-        }, {
-            searchControlProvider: 'yandex#search'
         }),
 
         // Создаём макет содержимого.
@@ -37,6 +35,12 @@ ymaps.ready(function () {
             '<div style="color: #FFFFFF; font-weight: bold;">$[properties.iconContent]</div>'
         );
 
+        myMap.controls.remove('geolocationControl')
+          .remove('trafficControl')
+          .remove('typeSelector')
+          .remove('fullscreenControl')
+          .remove('searchControl')
+          .remove('rulerControl');
 
     myMap.geoObjects
         .add(new ymaps.Placemark([53.059464, 158.634577], {
