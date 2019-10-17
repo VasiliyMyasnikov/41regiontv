@@ -4,7 +4,7 @@ $(document).ready(function(){
 
 $(window).resize(function(){
     elementsHeightChange();
-
+    console.log(123);
 });
 
 
@@ -14,9 +14,8 @@ function elementsHeightChange(){
       var curElementHeight = $(this).height();
       if(elementHeight < curElementHeight){
         elementHeight = curElementHeight;
+        console.log(elementHeight);
       }
-      
-    
   });
     $(".about-card").height(elementHeight);
 }

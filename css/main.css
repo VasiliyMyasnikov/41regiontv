@@ -6,17 +6,26 @@
   width: 100%;
 }
 
+.nav-item{
+  text-align: center;
+}
+
+.nav-link{
+  color: #000;
+}
+
 .youtube-frame {
 }
 
-.card-left{
+.about-card-img{
 	max-width: 125px;
 	//height: 115px;
-	
+  background-color: #fff;
+
 }
 
 .card-left img{
-	
+
 }
 
 .youtube-online-wrapper{
@@ -29,18 +38,25 @@
 
 
 .card-orange{
-	background-color: #ff773d;
-	color: #fff;
+	background-color:#ff773dcf;
+	color: #000;
 }
 
  .card-grey{
 	background-color: #4d4d4d;
 	color: #fff;
-} 
+}
 
 .card-right-circle{
 	width: 100%;
 	height: 100%;
 	//border-radius: 100%;
 	background-color: #fff;
-} 
+}
+
+.contact-img img{
+  width: 100%;
+}
+.contact-img{
+  width: 61px;
+}
