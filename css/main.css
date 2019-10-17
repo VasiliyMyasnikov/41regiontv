@@ -8,3 +8,39 @@
 
 .youtube-frame {
 }
+
+.card-left{
+	max-width: 125px;
+	//height: 115px;
+	
+}
+
+.card-left img{
+	
+}
+
+.youtube-online-wrapper{
+	padding: 15px;
+}
+
+.about-card .row:first-child{
+	height: 100%;
+}
+
+
+.card-orange{
+	background-color: #ff773d;
+	color: #fff;
+}
+
+ .card-grey{
+	background-color: #4d4d4d;
+	color: #fff;
+} 
+
+.card-right-circle{
+	width: 100%;
+	height: 100%;
+	//border-radius: 100%;
+	background-color: #fff;
+} 
