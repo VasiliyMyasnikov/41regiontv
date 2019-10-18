@@ -1,9 +1,20 @@
 $(document).ready(function(){
      $(".about-card").attr( "style", "" );
     if($(window).width() > 991){
-      elementsHeightChange();      
+      elementsHeightChange();
     }
-    
+    $('.ticker-title').marquee({
+      //duration in milliseconds of the marquee
+      duration: 5700,
+      //gap in pixels between the tickers
+      gap: 30,
+      //time in milliseconds before the marquee will start animating
+      delayBeforeStart: 0,
+      //'left' or 'right'
+      direction: 'left',
+      //true or false - should the marquee be duplicated to show an effect of continues flow
+      duplicated: true
+    });
 
 });
 
@@ -12,8 +23,9 @@ $(document).ready(function(){
 $(window).resize(function(){
     $(".about-card").removeAttr("style")
     if($(window).width() > 991){
-      elementsHeightChange();      
+      elementsHeightChange();
     }
+
 
 
 });

@@ -15,9 +15,9 @@
 }
 
 .projects-title, .about-title{
-	min-height: 200px;
+	min-height: 140px;
 
-	padding: 35px;
+	padding: 35px 10px 15px;
 }
 
 .projects-title-desc, .about-title-desc h2{
@@ -28,6 +28,9 @@
 	color: #fc4c02;
 }
 
+.projects-items{
+  padding-top: 15px;
+}
 
 .youtube-frame {
 }
@@ -41,6 +44,7 @@
 
 .card-text{
 	font-size: 0.95rem;
+  text-align: justify;
 }
 
 .card-left img{
@@ -89,17 +93,26 @@
 	border: 2px solid #4d4d4d;
 }
 
-.about-desc{
-	border-left: 2px solid #ff773dcf;
+.about-coverage-desc{
+	//border-left: 2px solid #ff773dcf;
+  font-size: 1.2rem;
+  text-align: justify;
 }
 
+.about-coverage-title{
+  padding: 25px 0;
+  text-align: center;
+}
 
+.about-static-map img{
+  width: 100%;
+}
 
 .contact-img img{
   width: 100%;
 }
 .contact-img{
-  width: 61px;
+  width: 55px;
 }
 
 #projects .card{
@@ -111,8 +124,90 @@
   height: 400px;
 }
 
+.contact-item{
+  margin-bottom: 22px;
+}
+
+.contact-info p{
+  margin: 0;
+  font-weight: bold;
+}
+
+.contact-info{
+  padding-left: 20px;
+}
+
+
+.contact-title h2{
+  text-align: center;
+
+
+  padding: 10px 10px 30px;
+
+}
+
+ .ticker-title{
+   background-color: grey;
+   color: #fff;
+   margin: 15px 0 25px;
+ }
+
+.ticker-title h2{
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.sm-icon{
+  width: 45px;
+  margin: 0 30px;
+}
+
+.sm-icon img{
+  width: 100%;
+}
+
+.social-media{
+  margin-top: 40px;
+}
+
+textarea{
+  resize: none;
+}
+
+footer{
+  height: 80px;
+  background-color: #000;
+}
+
+.footer-text{
+  color: #fff;
+  padding: 20px;
+  font-weight: bold;
+  }
+
+
+@media screen and (max-width: 992px) {
+  .about-coverage-desc{
+
+    font-size: 1rem;
+
+  }
+}
+
 @media screen and (max-width: 768px) {
   #map{
     height: 200px;
+  }
+  .map-col{
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .about-coverage-desc{
+    padding: 1.25rem;
+    font-size: 0.95rem;
+
   }
 }
