@@ -1,12 +1,20 @@
 $(document).ready(function(){
-    elementsHeightChange();
+     $(".about-card").attr( "style", "" );
+    if($(window).width() > 991){
+      elementsHeightChange();      
+    }
+    
 
 });
 
 
 
 $(window).resize(function(){
-    elementsHeightChange();
+    $(".about-card").removeAttr("style")
+    if($(window).width() > 991){
+      elementsHeightChange();      
+    }
+
 
 });
 
@@ -27,7 +35,7 @@ ymaps.ready(function () {
     var myMap = new ymaps.Map('map', {
             center: [53.059248, 158.634287],
             zoom: 16,
-            behaviors: ['multiTouch']
+            //behaviors: ['multiTouch']
         }),
 
         // Создаём макет содержимого.
@@ -47,7 +55,7 @@ ymaps.ready(function () {
             iconCaption: '41 Регион'
         }, {
             preset: 'islands#blueHeartIcon',
-            iconColor: 'orange'
+            iconColor: '#fc4c02'
         }))
 
 });
