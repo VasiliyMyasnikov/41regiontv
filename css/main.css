@@ -150,6 +150,7 @@
    background-color: grey;
    color: #fff;
    margin: 15px 0 25px;
+   overflow: hidden;
  }
 
 .ticker-title h2{
