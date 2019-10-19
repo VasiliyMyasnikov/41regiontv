@@ -5,7 +5,7 @@ $(document).ready(function(){
     }
     $('.ticker-title').marquee({
       //duration in milliseconds of the marquee
-      duration: 5700,
+      duration: 5000,
       //gap in pixels between the tickers
       gap: 30,
       //time in milliseconds before the marquee will start animating
@@ -47,20 +47,16 @@ ymaps.ready(function () {
     var myMap = new ymaps.Map('map', {
             center: [53.059248, 158.634287],
             zoom: 16,
-            //behaviors: ['multiTouch']
+            behaviors: ['drag', 'multitouch'],
+            controls: ['zoomControl']
         }),
 
-        // Создаём макет содержимого.
+
         MyIconContentLayout = ymaps.templateLayoutFactory.createClass(
             '<div style="color: #FFFFFF; font-weight: bold;">$[properties.iconContent]</div>'
         );
 
-        myMap.controls.remove('geolocationControl')
-          .remove('trafficControl')
-          .remove('typeSelector')
-          .remove('fullscreenControl')
-          .remove('searchControl')
-          .remove('rulerControl');
+
 
     myMap.geoObjects
         .add(new ymaps.Placemark([53.059464, 158.634577], {

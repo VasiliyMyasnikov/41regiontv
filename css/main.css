@@ -1,3 +1,10 @@
+
+
+body{
+  font-family: 'PT Sans', sans-serif;
+}
+
+
 .navbar-brand {
   width: 140px;
 }
@@ -172,6 +179,10 @@
   margin-top: 40px;
 }
 
+.phone-news{
+  background-color: #fc4c02;
+}
+
 textarea{
   resize: none;
 }
@@ -210,5 +221,22 @@ footer{
     padding: 1.25rem;
     font-size: 0.95rem;
 
+  }
+
+  .about-title-desc{
+    /* background-color:  #fc4c02; */
+    background-image: url(../img/tvheadbg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #fff;
+    height: 480px;
+    margin-top: 20px;
+    padding-top: 50px;
+  }
+
+  .about-title{
+    padding-top: 15px;
+    border-top: 2px solid #4d4d4d;
+    margin-top: 10px;
   }
 }
