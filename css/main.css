@@ -1,7 +1,13 @@
 
 
 body{
-  font-family: 'PT Sans', sans-serif;
+
+
+    font-family: 'Noto Sans SC', sans-serif;
+
+
+
+
 }
 
 
@@ -226,17 +232,23 @@ footer{
   .about-title-desc{
     /* background-color:  #fc4c02; */
     background-image: url(../img/tvheadbg.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
     height: 480px;
     margin-top: 20px;
     padding-top: 50px;
+
   }
 
   .about-title{
     padding-top: 15px;
     border-top: 2px solid #4d4d4d;
     margin-top: 10px;
+
   }
+
+  .about-title-desc h2 {
+  
+    font-weight: bold;
 }
