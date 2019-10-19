@@ -229,6 +229,10 @@ footer{
     font-size: 1.8rem;
   }
 
+  .projects-title-desc, .about-title-desc{
+    margin-top: 15px;
+  }
+
 @media screen and (max-width: 992px) {
   .about-coverage-desc{
 
@@ -266,7 +270,7 @@ footer{
 
   .about-title-desc{
     position: absolute;
-    top: 60px;
+    top: 55px;
     /* background-color:  #fc4c02; */
     /* background-image: url(../img/tvheadbg2.jpg); */
     /* background-position: top -150px;
@@ -295,7 +299,7 @@ footer{
 }
   .projects-title-desc h2{
     font-size: 1.5rem;
-    margin-top: 10px;
+
       }
 
     .ticker-title h2 {
