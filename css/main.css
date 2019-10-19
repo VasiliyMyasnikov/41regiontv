@@ -267,8 +267,8 @@ footer{
   }
 
   .about-title-desc h2 {
-    font-size: 1.8rem;
-    font-weight: bold;
+    /* font-size: 1.8rem;
+    font-weight: bold; */
 }
   .projects-title-desc h2{
     font-size: 1.5rem;
