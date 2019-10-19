@@ -33,8 +33,9 @@ body{
 	padding: 35px 10px 15px;
 }
 
-.projects-title-desc, .about-title-desc h2{
+.projects-title-desc h2, .about-title-desc h2{
 	text-align: center;
+  font-weight: bold;
 }
 
 .title-line-orange{
@@ -117,6 +118,10 @@ body{
   text-align: center;
 }
 
+.about-coverage-title h2{
+  font-weight: bold;
+}
+
 .about-static-map img{
   width: 100%;
 }
@@ -153,7 +158,7 @@ body{
 
 .contact-title h2{
   text-align: center;
-
+  font-weight: bold;
 
   padding: 10px 10px 30px;
 
@@ -169,7 +174,7 @@ body{
 .ticker-title h2{
   text-align: center;
   font-weight: bold;
-  padding: 10px;
+  padding: 5px;
 }
 
 .sm-icon{
@@ -229,15 +234,28 @@ footer{
 
   }
 
+  .mobile-title-background{
+    position: relative;
+    margin-top: 15px;
+  }
+  .mobile-title-background img{
+    width: 100%;
+  }
+
+
+
   .about-title-desc{
+    position: absolute;
+    top: 88px;
     /* background-color:  #fc4c02; */
-    background-image: url(../img/tvheadbg.jpg);
+    /* background-image: url(../img/tvheadbg2.jpg); */
+    /* background-position: top -150px;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     color: #fff;
-    height: 480px;
-    margin-top: 20px;
-    padding-top: 50px;
+
+
+
 
   }
 
@@ -249,6 +267,16 @@ footer{
   }
 
   .about-title-desc h2 {
-  
+    font-size: 1.8rem;
     font-weight: bold;
+}
+  .projects-title-desc h2{
+    font-size: 1.5rem;
+    margin-top: 10px;
+      }
+    .ticker-title h2 {
+
+    font-size: 1.5rem;
+
+
 }
