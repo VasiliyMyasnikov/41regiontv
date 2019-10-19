@@ -38,7 +38,7 @@ body{
   font-weight: bold;
 }
 
-.title-line-orange{
+.other-orange-text, .title-line-orange{
 	color: #fc4c02;
 }
 
@@ -88,7 +88,7 @@ body{
 }
 
  .card-grey{
-	background-color: #4d4d4d;
+	background-color: #444;
 	color: #fff;
 }
 
@@ -104,7 +104,7 @@ body{
 }
 
 .about-card-grey{
-	border: 2px solid #4d4d4d;
+	border: 2px solid #444;
 }
 
 .about-coverage-desc{
@@ -165,7 +165,7 @@ body{
 }
 
  .ticker-title{
-   background-color: grey;
+   background-color: #2f2f2f;
    color: #fff;
    margin: 15px 0 25px;
    overflow: hidden;
@@ -174,12 +174,12 @@ body{
 .ticker-title h2{
   text-align: center;
   font-weight: bold;
-  padding: 5px;
+  padding: 3px;
 }
 
 .sm-icon{
   width: 45px;
-  margin: 0 30px;
+  margin: 0 25px;
 }
 
 .sm-icon img{
@@ -192,6 +192,10 @@ body{
 
 .phone-news{
   background-color: #fc4c02;
+}
+
+.youtube-icon{
+  padding-top: 5px;
 }
 
 textarea{
