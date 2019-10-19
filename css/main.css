@@ -210,6 +210,25 @@ footer{
   }
 
 
+  .bg-black {
+
+      background-color: #000;
+
+  }
+
+  .navbar-brand {
+
+
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  h2 {
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+  }
+
 @media screen and (max-width: 992px) {
   .about-coverage-desc{
 
@@ -237,6 +256,7 @@ footer{
   .mobile-title-background{
     position: relative;
     margin-top: 15px;
+    padding: 0 5px;
   }
   .mobile-title-background img{
     width: 100%;
@@ -252,31 +272,38 @@ footer{
     /* background-position: top -150px;
     background-size: cover;
     background-repeat: no-repeat; */
-    color: #fff;
-
 
 
 
   }
-
-  .about-title{
+    .about-title{
+      background-color: #fdfdfd;
+      padding-bottom: 0;
+    }
+  .about-title, .projects-title{
     padding-top: 15px;
-    border-top: 2px solid #4d4d4d;
-    margin-top: 10px;
+    //border-top: 2px solid #4d4d4d;
+    //margin-top: 10px;
 
   }
 
   .about-title-desc h2 {
-    /* font-size: 1.8rem;
-    font-weight: bold; */
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    color: #eaeaea;
 }
   .projects-title-desc h2{
     font-size: 1.5rem;
     margin-top: 10px;
       }
+
     .ticker-title h2 {
 
     font-size: 1.5rem;
+
+
+}
 
 
 }

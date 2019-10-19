@@ -20,7 +20,7 @@
   <link rel="shortcut icon" href="" sizes="64x64" type="image/png" />
   <link rel="shortcut icon" href="" sizes="96x96" type="image/png" />
   <link href="css/main.css" rel="stylesheet" />
-<link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lora|Noto+Sans+SC&display=swap" rel="stylesheet">
   <script src="https://api-maps.yandex.ru/2.1/?apikey=b5603e78-2221-4bdf-bf89-d61260f62094&lang=ru_RU" type="text/javascript">
   </script>
 
@@ -29,7 +29,32 @@
 <body>
   <div class="container">
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="d-flex d-sm-none navbar navbar-expand-lg navbar-dark bg-black">
+        <a class="navbar-brand" href="#"><img src="img/41reg_logo_white.png" alt="41region_logo" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link " href="#">Кто мы</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Проекты</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Прямой эфир</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Контакты</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Подать объявление</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <nav class="d-sm-flex d-none navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#"><img src="img/41reg_logo_small.png" alt="41region_logo" /></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -86,7 +111,8 @@
             <img src="img/tvheadbg2.jpg" alt="tv-wallpaper">
             <div class="col-12 about-title-desc">
 
-              <h2>информационно-развлекательный телеканал Камчатского края.</h2>
+              <h2 >Информационно-развлекательный телеканал Камчатского края.</h2>
+
             </div>
           </div>
 
@@ -255,7 +281,8 @@
         </div>
         <div class="row">
           <div class="col-12 projects-title-desc">
-            <h2>это информационный канал. Это про Камчатку.</h2>
+            <h2 class = 'd-none d-sm-block'>это информационный канал. Это про Камчатку.</h2>
+            <h2 class = 'd-sm-none d-block'>это информационный канал.<br>Это про Камчатку.</h2>
           </div>
         </div>
 
