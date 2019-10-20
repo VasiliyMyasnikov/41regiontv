@@ -90,7 +90,7 @@ $(window).resize(function(){
     if($(window).width() > 991){
       elementsHeightChange(".about-card");
     }
-      //tickerFixedWidth();
+      tickerFixedWidth();
 
 
 });
