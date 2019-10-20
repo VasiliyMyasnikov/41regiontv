@@ -235,6 +235,7 @@ h2 {
 
 .about-title-this-img img {
   width: 95%;
+  max-width: 377px;
 }
 
 .about-title-this-word {
