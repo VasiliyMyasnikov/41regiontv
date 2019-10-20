@@ -25,25 +25,27 @@ $(document).ready(function(){
 
 
 
-      $(window).scroll(function () {
-       if ($(this).scrollTop() > 90) {
-           $('#back-to-top').fadeIn();
-       } else {
-           $('#back-to-top').fadeOut();
-       }
-   });
 
-   $('#back-to-top').click(function () {
-       $('#back-to-top').hide();
-       $('body,html').animate({
-           scrollTop: 0
-       }, 500);
-       return false;
-   });
 
 
 });
 
+
+//    $(window).scroll(function () {
+//     if ($(this).scrollTop() > 90) {
+//         $('#back-to-top').fadeIn();
+//     } else {
+//         $('#back-to-top').fadeOut();
+//     }
+// });
+//
+// $('#back-to-top').click(function () {
+//     $('#back-to-top').hide();
+//     $('body,html').animate({
+//         scrollTop: 0
+//     }, 500);
+//     return false;
+// });
 
 
 $(window).resize(function(){
