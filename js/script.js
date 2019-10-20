@@ -4,7 +4,8 @@ $(document).ready(function(){
       elementsHeightChange(".about-card");
     }
 
-    elementsHeightChange(".chanel-item");
+    //elementsHeightChange(".chanel-item");
+
     $('.ticker-title').marquee({
       //duration in milliseconds of the marquee
       duration: 5000,
@@ -89,7 +90,7 @@ $(window).resize(function(){
     if($(window).width() > 991){
       elementsHeightChange(".about-card");
     }
-      tickerFixedWidth();
+      //tickerFixedWidth();
 
 
 });
