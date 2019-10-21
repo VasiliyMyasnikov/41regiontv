@@ -356,7 +356,7 @@ h2 {
 .border-top-bottom-orange{
   border-top: 3px solid #fc4c02;
   border-bottom: 3px solid #fc4c02;
-  
+
 }
 
 .border-top-bottom-grey{
@@ -481,6 +481,6 @@ h2 {
 @media screen and (max-width: 450px) {
   .contact-info {
     padding-left: 0;
-    width: 55%;
+    width: 58%;
   }
 }
