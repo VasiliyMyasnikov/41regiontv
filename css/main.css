@@ -1,6 +1,6 @@
 body {
   /*font-family: 'Noto Sans SC', sans-serif;*/
-   font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+   font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
 }
 
 a {
@@ -165,6 +165,7 @@ a:hover {
   color: #fff;
   margin: 15px 0 25px;
   overflow: hidden;
+  opacity: 0.8;
 }
 
 .ticker-title h2, .ticker-fixed-title h2{
@@ -300,7 +301,8 @@ h2 {
 
 .cabel-operator-logo img{
   width: 100%;
-  max-width: 120px;
+  //max-width: 120px;
+  padding: 15px;
 }
 
 .cabel-operator-chanel p{
@@ -308,24 +310,33 @@ h2 {
   font-weight: bold;
   margin: 0;
   text-transform: uppercase;
+  text-align: center;
+}
+
+.cabel-operator-chanel{
+  height: 115px;
+  border-radius: 5px;
+  
 }
 
 .cabel-chanel{
   margin-bottom: 20px;
 }
-.chanel-item:not(:first-child){
+/* .chanel-item:not(:first-child){
   border-left: 3px solid #4d4d4d;
-}
+} */
 
 .cabel-wrapper{
-  border:2px solid #ff773dcf;
-  border-radius: 4px;
+  /* border:2px solid #ff773dcf;
+  border-radius: 4px; */
   margin: 20px 0 0;
 
 }
 
 .chanel-item{
-  min-height: 90px;
+  //min-height: 90px;
+  margin-bottom: 25px;
+  border: none;
 }
 
 @media screen and (max-width: 1200px) {
@@ -441,6 +452,6 @@ h2 {
 @media screen and (max-width: 450px) {
   .contact-info {
     padding-left: 20px;
-    width: 50%;    
+    width: 50%;
   }
 }

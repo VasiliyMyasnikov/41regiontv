@@ -8,7 +8,7 @@ $(document).ready(function(){
 
     $('.ticker-title').marquee({
       //duration in milliseconds of the marquee
-      duration: 5000,
+      duration: 10000,
       //gap in pixels between the tickers
       gap: 30,
       //time in milliseconds before the marquee will start animating
@@ -21,7 +21,7 @@ $(document).ready(function(){
 
     $('.ticker-fixed-title').marquee({
       //duration in milliseconds of the marquee
-      duration: 5000,
+      duration: 6500,
       //gap in pixels between the tickers
       gap: 30,
       //time in milliseconds before the marquee will start animating
