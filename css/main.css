@@ -460,12 +460,14 @@ h2 {
     .about-title-desc {
       position: absolute;
       top: 25px;
+      left: 0;
       /* background-color:  #fc4c02; */
       /* background-image: url(../img/tvheadbg2.jpg); */
       /* background-position: top -150px;
     background-size: cover;
     background-repeat: no-repeat; */
       background-color: #fff7;
+      padding: 0;
     }
 
     .about-title {
@@ -488,6 +490,7 @@ h2 {
       color: #000;
       letter-spacing: 1px;
     }
+
 
     .projects-title-desc h2 {
       font-size: 1.5rem;
@@ -521,4 +524,9 @@ h2 {
     padding-left: 0;
     width: 61%;
   }
+  .about-title-desc h2 {
+
+    letter-spacing: 0;
+  }
+
 }
