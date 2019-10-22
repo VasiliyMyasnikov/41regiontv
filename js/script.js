@@ -1,3 +1,8 @@
+var resized = 0;
+
+
+
+
 $(document).ready(function(){
      $(".about-card").attr( "style", "" );
     if($(window).width() > 991){
@@ -48,6 +53,11 @@ $(document).ready(function(){
         $('body,html').animate({scrollTop: topTicker}, 700);	});
 
 
+         if($(window).width() < 768){
+            loadSwiper();
+         }
+
+
 });
 
 $(window).scroll(function () {
@@ -92,6 +102,11 @@ $(window).resize(function(){
     }
       tickerFixedWidth();
 
+      if($(window).width()<=768 && resized == 0){
+      loadSwiper();
+
+      resized++;
+    }
 
 });
 
@@ -132,3 +147,39 @@ ymaps.ready(function () {
         }))
 
 });
+
+
+
+function loadSwiper(){
+		resized++;
+		var voiceWrapName = '.projects-items';
+
+
+bildDomForSwiper(voiceWrapName);
+
+
+		  var swiper1 = new Swiper('.swiper1', {
+
+  	 pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      autoplay: {
+    delay: 3000,
+
+    }
+
+  });
+
+}
+
+
+
+function bildDomForSwiper(voiceWrapName) {
+			$(voiceWrapName).removeClass('row justify-content-center').addClass('col-12');
+      $('.projects-items .card').addClass('swiper-slide').removeClass('col-12 col-md-6 col-lg-4');
+      $(voiceWrapName).addClass('swiper-wrapper');
+      $(voiceWrapName).wrap("<div class = 'swiper-container swiper1'></div>");
+			$(voiceWrapName).parent().append("<div class='swiper-pagination'></div> ");
+
+}

@@ -370,7 +370,16 @@ h2 {
 
 }
 
+.swiper-wrapper{
+  padding: 0;
+}
 
+.swiper-pagination-bullet-active {
+
+    opacity: 1;
+    background: #fc4c02;
+
+}
 
 
 @media screen and (max-width: 1200px) {
@@ -383,9 +392,9 @@ h2 {
 
 @media screen and (max-width: 992px) {
   .about-coverage-desc {
-     
+
       font-size: 1.05rem;
-      
+
       line-height: 1.4;
   }
 
@@ -398,9 +407,9 @@ h2 {
   }
 
   .chanel-item{
-  
+
   margin-bottom: 40px;
-  
+
 }
 
 }
@@ -420,9 +429,9 @@ h2 {
   }
 
     .about-coverage-desc {
-     
+
       font-size: 1.1rem;
-      
+
       line-height: 1.6;
       margin-top: 25px;
   }
