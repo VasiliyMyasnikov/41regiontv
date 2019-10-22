@@ -311,7 +311,7 @@ h2 {
 .cabel-operator-logo img{
   width: 100%;
   //max-width: 120px;
-  padding: 15px;
+  padding: 15px 15px 10px;
 }
 
 .cabel-operator-chanel p{
@@ -408,7 +408,7 @@ h2 {
 
   .chanel-item{
 
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 
 }
 
@@ -473,10 +473,11 @@ h2 {
     .about-title {
       /* background-color: #fdfdfd; */
       border-top: 2px solid #4d4d4d;
+      padding-top: 15px ;
       padding-bottom: 0;
     }
 
-    .about-title, .projects-title {
+projects-title {
       padding-top: 0;
       //border-top: 2px solid #4d4d4d;
       //margin-top: 10px;
