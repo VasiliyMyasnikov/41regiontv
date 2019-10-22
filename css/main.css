@@ -35,7 +35,7 @@ a:hover {
   padding: 35px 10px 15px;
 }
 
-.projects-title-desc h2, .about-title-desc h2 {
+.projects-title-desc h2, .about-title-desc h1 {
   text-align: center;
   font-weight: bold;
 }
@@ -482,7 +482,7 @@ h2 {
       //margin-top: 10px;
     }
 
-    .about-title-desc h2 {
+    .about-title-desc h1 {
       /*font-family: 'Lora', serif;*/
       text-transform: uppercase;
       font-size: 2rem;
@@ -524,7 +524,7 @@ h2 {
     padding-left: 0;
     width: 61%;
   }
-  .about-title-desc h2 {
+  .about-title-desc h1 {
 
     letter-spacing: 0;
   }
