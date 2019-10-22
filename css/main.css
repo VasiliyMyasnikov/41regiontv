@@ -51,7 +51,7 @@ a:hover {
 .youtube-frame {}
 
 .about-card-img {
-  max-width: 135px;
+  max-width: 125px;
   //height: 115px;
   background-color: #fff;
 }
@@ -186,7 +186,7 @@ line-height: 1.3;
 }
 
 .sm-icon {
-  width: 45px;
+  width: 38px;
   margin: 0 25px;
 }
 
@@ -203,7 +203,8 @@ line-height: 1.3;
 }
 
 .youtube-icon {
-  padding-top: 5px;
+  width: 42px;
+
 }
 
 textarea {
@@ -391,6 +392,10 @@ h2 {
 .contact-item-info{
   font-size: 1.2rem;
   font-weight: bold;
+}
+
+.no-opacity{
+  opacity: 1 !important;
 }
 
 
