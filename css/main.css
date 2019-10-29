@@ -402,6 +402,10 @@ h2 {
   margin-bottom: 30px;
 }
 
+.seo-dn{
+    display:none;
+}
+
 
 @media screen and (max-width: 1200px) {
   .contact-info {
